@@ -14,9 +14,9 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespaces load"
-    (is (some? (the-ns 'graph)))
-    (is (some? (the-ns 'graph.data)))
-    (is (some? (the-ns 'graph.layout)))))
+    (is (some? (find-ns 'graph)))
+    (is (some? (find-ns 'graph.data)))
+    (is (some? (find-ns 'graph.layout)))))
 
 ;; --- ported 1:1 from layout::tests::test_basic_layout ---------------------
 
