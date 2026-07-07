@@ -3,4 +3,4 @@
             [graph]))
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? graph))))
+    (is (some? (find-ns 'graph)))))
