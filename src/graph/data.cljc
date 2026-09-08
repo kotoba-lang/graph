@@ -29,7 +29,7 @@
   - `SoSData`      -> {:systems [...] :interfaces [...] :layers [...]
                         :stats {:total-systems :total-interfaces :total-apps
                                  :coupling-score :cohesion-score}}"
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 ;; --- accessors with serde-style defaults -------------------------------
 
