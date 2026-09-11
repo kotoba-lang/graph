@@ -35,5 +35,5 @@ reheat/settled semantics), and `graph` (colors, instance builders, camera extent
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
